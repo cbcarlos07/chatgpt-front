@@ -1,13 +1,17 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import './ChatMessage.css'
 
 const ChatMessage = ({message, index, response, sendEmail}) =>{
+  
   const [showOptions, setShowOptions] = useState(false)
+ 
   const handlerShowOption = option => {
     setShowOptions(option)
   }
+
+  
   
   return(
   

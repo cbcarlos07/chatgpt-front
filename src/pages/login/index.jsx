@@ -35,7 +35,7 @@ const LoginForm = () =>{
 
   return (
     <Container className="d-flex justify-content-center align-items-center" style={{ height: "100vh" }}>
-      <Card style={{ width: "350px" }}>
+      <Card style={{ width: "350px", background: '#353541',color: 'white' }}>
         <Card.Body>
           <h2 className="text-center mb-4">Login</h2>
           {

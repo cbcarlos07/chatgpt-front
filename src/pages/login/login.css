@@ -9,3 +9,15 @@
   .link:hover {
     text-decoration: underline;
   }
+
+  body{
+    background-color: #444654;
+  }
+
+  .bg-system{
+    background-color: #353541;
+  }
+
+  .login{
+    color: white;
+  }

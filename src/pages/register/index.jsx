@@ -58,7 +58,7 @@ const RegisterPage = () =>{
 
     return (
         <Container className="d-flex justify-content-center align-items-center mt-5">
-            <Card style={{ width: "850px" }}>
+            <Card style={{ width: "850px", background: '#353541',color: 'white' }}>
                 <Card.Body>
 
                     <Row >
@@ -133,12 +133,15 @@ const RegisterPage = () =>{
                             </Form.Group>
                             <Form.Check 
                                 type="checkbox"
-                                label="Mostrar senha"
+                                label="Show password"
                                 onChange={fnShowPassowrd}
                                 style={{marginTop: '10px'}}
                             />
                             <Button variant="primary" type="submit" block className='mt-3' disabled={!validated && !pwdIsvalid}>
                                 Register
+                            </Button>&nbsp;
+                            <Button variant="warning" block className='mt-3' onClick={() => navigate(-1)} >
+                                Go back
                             </Button>
                         </Form>
                         </Col>

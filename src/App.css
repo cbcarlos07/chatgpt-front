@@ -47,19 +47,37 @@
 /* chat css */
 
 .chatbox{
+  flex: 6;
+  /* border:1px solid white; */
+  background-color: #353541;
+  position: relative;
+  overflow-y : auto;
+  
+}
+
+.chatbox-2{
   flex: 1;
   /* border:1px solid white; */
   background-color: #353541;
   position: relative;
-  overflow-y:auto;
+  margin-bottom: 10px;
+}
+
+
+.chat-wrapper{
+  flex: 1;
+  display: flex;
+  /*flex-flow: row wrap;*/
+  flex-direction: column;
 }
 
 .chat-input-holder{
-  padding:24px;
+  padding:30px;
   position:absolute;
   bottom: 0;
   left:0;
   right: 0;
+  margin-bottom: 1px;
 }
 
 .chat-input-textarea{
